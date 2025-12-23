@@ -257,5 +257,47 @@
         ]
       }
     ]
+  },
+  {
+    "id": "mycards",
+    "fields": [
+      {
+        "name": "variant",
+        "label": "Layout Variant",
+        "type": "select",
+        "options": [
+          {
+            "label": "Grid",
+            "value": "grid"
+          },
+          {
+            "label": "Carousel",
+            "value": "carousel"
+          }
+        ]
+      },
+      {
+        "name": "mycards",
+        "label": "My Cards",
+        "type": "multifield",
+        "fields": [
+          {
+            "name": "title",
+            "label": "Title",
+            "type": "text"
+          },
+          {
+            "name": "image",
+            "label": "Image",
+            "type": "image"
+          },
+          {
+            "name": "link",
+            "label": "Link",
+            "type": "link"
+          }
+        ]
+      }
+    ]
   }
 ]
