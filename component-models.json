@@ -264,7 +264,7 @@
       {
         "name": "variant",
         "label": "Layout Variant",
-        "type": "select",
+        "component": "select",
         "options": [
           {
             "label": "Grid",
@@ -279,22 +279,24 @@
       {
         "name": "mycards",
         "label": "My Cards",
-        "type": "multifield",
+        "component": "multifield",
         "fields": [
           {
             "name": "title",
             "label": "Title",
-            "type": "text"
+            "valueType": "string",
+            "component": "text"
           },
           {
+            "component": "reference",
+            "valueType": "string",
             "name": "image",
-            "label": "Image",
-            "type": "image"
+            "label": "Image"
           },
           {
-            "name": "link",
-            "label": "Link",
-            "type": "link"
+            "component": "text",
+            "name": "linkText",
+            "label": "Text"
           }
         ]
       }
