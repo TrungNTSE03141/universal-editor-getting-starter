@@ -267,38 +267,20 @@
         "component": "select",
         "options": [
           {
-            "label": "Grid",
+            "name": "Grid",
             "value": "grid"
           },
           {
-            "label": "Carousel",
+            "name": "Carousel",
             "value": "carousel"
           }
         ]
       },
       {
-        "name": "mycards",
-        "label": "My Cards",
-        "component": "multifield",
-        "fields": [
-          {
-            "name": "title",
-            "label": "Title",
-            "valueType": "string",
-            "component": "text"
-          },
-          {
-            "component": "reference",
-            "valueType": "string",
-            "name": "image",
-            "label": "Image"
-          },
-          {
-            "component": "text",
-            "name": "linkText",
-            "label": "Text"
-          }
-        ]
+        "component": "date-time",
+        "label": "Date & Time",
+        "name": "date",
+        "valueType": "date"
       }
     ]
   }
