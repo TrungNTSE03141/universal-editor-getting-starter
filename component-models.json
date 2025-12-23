@@ -378,6 +378,21 @@
         "label": "Text 2",
         "name": "text2",
         "valueType": "string"
+      },
+      {
+        "component": "container",
+        "name": "images",
+        "multi": true,
+        "fields": [
+          {
+            "component": "reference",
+            "name": "image"
+          },
+          {
+            "component": "text",
+            "name": "imageAlt"
+          }
+        ]
       }
     ]
   }
