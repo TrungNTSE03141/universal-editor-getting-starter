@@ -28,7 +28,7 @@ export default function decorate(block) {
         className: 'quote-input',
         placeholder: 'Enter quote',
         'aria-label': 'Quote input',
-       // value: quoteWrapper.textContent.trim()
+        // value: quoteWrapper.textContent.trim()
     });
 
     const submit = createEl('button', {
