@@ -21,21 +21,18 @@
             "id": "quote",
             "fields": [
                 {
-                    "component": "text",
-                    "name": "name",
-                    "label": "Quote Name",
-                    "description": "The label shown for this quote in the Content Tree"
+                    "component": "richtext",
+                    "name": "quote",
+                    "value": "",
+                    "label": "Quote",
+                    "valueType": "string"
                 },
                 {
-                    "component": "multiselect",
-                    "name": "style",
-                    "label": "Style",
-                    "options": [
-                        {
-                            "name": "Highlight",
-                            "value": "highlight"
-                        }
-                    ]
+                    "component": "text",
+                    "valueType": "string",
+                    "name": "author",
+                    "label": "Author",
+                    "value": ""
                 }
             ]
         }
