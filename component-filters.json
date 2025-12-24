@@ -70,5 +70,14 @@
       "wizard",
       "range"
     ]
+  },
+  {
+    "id": "quote",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
+    ]
   }
 ]
