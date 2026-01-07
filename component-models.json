@@ -4955,6 +4955,20 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "primaryCtaUrl",
+        "label": "Primary CTA URL",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "secondaryCtaUrl",
+        "label": "Secondary CTA URL",
+        "value": ""
       }
     ]
   },
