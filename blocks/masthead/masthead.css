@@ -5,7 +5,6 @@
 
 .masthead {
   position: relative;
-  padding: 40px 24px;
   min-height: 300px;
 }
 
@@ -16,7 +15,7 @@
 }
 
 .masthead picture {
-  position: absolute;
+  position: relative;
   z-index: -1;
   inset: 0;
   object-fit: cover;
@@ -39,8 +38,43 @@
   padding: 0.5em 0.5em;
 }
 
-@media (width >= 900px) {
+.mobile-section {
+  line-height: 0;
+}
+
+.desktop-section img {
+  display: none;
+}
+
+.masthead .desc {
+  background-color: #3d3d3b;
+  color:  white;
+}
+
+.masthead h1 {
+  margin-top: unset;
+}
+
+/* Desktop styles */
+@media (width >=900px) {
   .masthead {
     padding: 40px 32px;
+  }
+
+  .mobile-section img {
+    display: none;
+  }
+
+  .desktop-section img {
+    display: block;
+  }
+
+  .masthead picture {
+    position: absolute;
+  }
+
+  .masthead .desc {
+    background-color: unset;
+    color: black;
   }
 }
