@@ -43,37 +43,20 @@
         },
         {
           "component": "container",
-          "name": "ctaButtons",
-          "label": "CTA Buttons",
+          "name": "ctas",
           "multi": true,
           "fields": [
             {
-              "component": "text-input",
-              "name": "label",
-              "label": "Button Label",
-              "valueType": "string"
+              "component": "richtext",
+              "name": "text"
             },
             {
-             "component": "text-input",
-              "name": "url",
-              "label": "Button URL",
-              "valueType": "string"
+              "component": "aem-content",
+              "name": "link"
             },
             {
-              "component": "select",
-              "name": "type",
-              "label": "Button Type",
-              "valueType": "string",
-              "options": [
-                {
-                  "name": "Primary",
-                  "value": "primary"
-                },
-                {
-                  "name": "Secondary",
-                  "value": "secondary"
-                }
-              ]
+              "component": "text",
+              "name": "linkText"
             }
           ]
         }
