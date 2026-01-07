@@ -4951,45 +4951,37 @@
       },
       {
         "component": "container",
-        "name": "primaryCtaButton",
-        "label": "Primary CTA Button",
+        "name": "ctaButtons",
+        "label": "CTA Buttons",
         "multi": true,
         "fields": [
           {
             "component": "text",
-            "name": "primaryCtaName",
-            "value": "",
-            "label": "Primary CTA Name",
+            "name": "label",
+            "label": "Button Label",
             "valueType": "string"
           },
           {
             "component": "text",
-            "name": "primaryCtaUrl",
-            "value": "",
-            "label": "Primary CTA Url",
-            "valueType": "string"
-          }
-        ]
-      },
-      {
-        "component": "container",
-        "name": "secondaryCtaButton",
-        "label": "Secondary CTA Button",
-        "multi": true,
-        "fields": [
-          {
-            "component": "text",
-            "name": "secondaryCtaName",
-            "value": "",
-            "label": "Secondary CTA Name",
+            "name": "url",
+            "label": "Button URL",
             "valueType": "string"
           },
           {
-            "component": "text",
-            "name": "secondaryCtaUrl",
-            "value": "",
-            "label": "Secondary CTA Url",
-            "valueType": "string"
+            "component": "select",
+            "name": "type",
+            "label": "Button Type",
+            "valueType": "string",
+            "options": [
+              {
+                "name": "Primary",
+                "value": "primary"
+              },
+              {
+                "name": "Secondary",
+                "value": "secondary"
+              }
+            ]
           }
         ]
       }
