@@ -35,13 +35,6 @@
           "multi": false
         },
         {
-          "component": "text",
-          "valueType": "string",
-          "name": "imageAlt",
-          "label": "Alt",
-          "value": ""
-        },
-        {
           "component": "richtext",
           "name": "text",
           "value": "",
@@ -58,8 +51,22 @@
         {
           "component": "text",
           "valueType": "string",
+          "name": "primaryCtaName",
+          "label": "Primary CTA Name",
+          "value": ""
+        },
+        {
+          "component": "text",
+          "valueType": "string",
           "name": "secondaryCtaUrl",
           "label": "Secondary CTA URL",
+          "value": ""
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "secondaryCtaName",
+          "label": "Secondary CTA Name",
           "value": ""
         }
       ]
