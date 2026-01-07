@@ -4950,38 +4950,46 @@
         "valueType": "string"
       },
       {
-        "component": "object",
-        "name": "buttons",
-        "label": "Buttons",
+        "component": "container",
+        "name": "primaryCtaButton",
+        "label": "Primary CTA Button",
         "multi": true,
         "fields": [
           {
             "component": "text",
-            "name": "label",
-            "label": "Button Label",
+            "name": "primaryCtaName",
+            "value": "",
+            "label": "Primary CTA Name",
             "valueType": "string"
           },
           {
-            "component": "reference",
-            "name": "link",
-            "label": "Button Link",
+            "component": "text",
+            "name": "primaryCtaUrl",
+            "value": "",
+            "label": "Primary CTA Url",
+            "valueType": "string"
+          }
+        ]
+      },
+      {
+        "component": "container",
+        "name": "secondaryCtaButton",
+        "label": "Secondary CTA Button",
+        "multi": true,
+        "fields": [
+          {
+            "component": "text",
+            "name": "secondaryCtaName",
+            "value": "",
+            "label": "Secondary CTA Name",
             "valueType": "string"
           },
           {
-            "component": "select",
-            "name": "style",
-            "label": "Button Style",
-            "valueType": "string",
-            "options": [
-              {
-                "name": "Primary",
-                "value": "primary"
-              },
-              {
-                "name": "Secondary",
-                "value": "secondary"
-              }
-            ]
+            "component": "text",
+            "name": "secondaryCtaUrl",
+            "value": "",
+            "label": "Secondary CTA Url",
+            "valueType": "string"
           }
         ]
       }
