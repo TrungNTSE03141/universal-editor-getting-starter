@@ -4936,6 +4936,13 @@
         "multi": false
       },
       {
+        "component": "reference",
+        "valueType": "string",
+        "name": "mobileImage",
+        "label": "Mobile Image",
+        "multi": false
+      },
+      {
         "component": "text",
         "valueType": "string",
         "name": "imageAlt",
