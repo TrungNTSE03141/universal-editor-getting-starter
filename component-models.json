@@ -4952,6 +4952,7 @@
       {
         "component": "container",
         "name": "ctas",
+        "label": "CTAs",
         "multi": true,
         "fields": [
           {
