@@ -4957,24 +4957,18 @@
         "valueType": "string"
       },
       {
-        "component": "container",
-        "name": "ctas",
-        "label": "CTAs",
-        "multi": true,
-        "fields": [
-          {
-            "component": "richtext",
-            "name": "text"
-          },
-          {
-            "component": "aem-content",
-            "name": "link"
-          },
-          {
-            "component": "text",
-            "name": "linkText"
-          }
-        ]
+        "component": "text",
+        "valueType": "string",
+        "name": "primaryCtaName",
+        "label": "Primary CTA Name",
+        "value": ""
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "primaryCtaUrl",
+        "label": "Primary CTA URL",
+        "value": ""
       }
     ]
   },
