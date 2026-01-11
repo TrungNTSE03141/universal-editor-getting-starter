@@ -56,7 +56,7 @@
           "value": ""
         },
         {
-          "component": "reference",
+          "component": "aem-content",
           "valueType": "string",
           "name": "primaryCtaUrl",
           "label": "Primary CTA URL",
